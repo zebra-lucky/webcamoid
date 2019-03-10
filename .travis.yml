@@ -66,10 +66,6 @@ after_success:
   - chmod +x ports/ci/travis/deploy.sh
   - ports/ci/travis/deploy.sh
 
-branches:
-  only:
-    - master
-
 notifications:
   recipients:
     - hipersayan.x@gmail.com
